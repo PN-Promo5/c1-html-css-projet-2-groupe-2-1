@@ -1,0 +1,193 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .menu-mobile {
+    display: inherit;
+  }
+
+  .menu-desktop {
+    display: none;
+  }
+
+  .t-date {
+    font-size: 40px;
+  }
+
+  .t-t {
+    font-size: 30px;
+  }
+
+  .t-emplacement {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+
+  .invites-t {
+    font-size: 15px;
+  }
+
+  .invites-p {
+    font-size: 12px;
+  }
+
+  .mapM {
+    display: inherit;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+
+  .text-H {
+    writing-mode: inherit;
+    text-orientation: inherit;
+  }
+
+  .menu-P {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .B-jour {
+    border: 5px solid white;
+    height: 60px;
+    width: 350px;
+    text-align: center;
+    margin: 10px auto;
+    padding: 11px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .B-jour h3 {
+    font-size: 20px;
+  }
+
+  .B-programme {
+    border: 5px solid white;
+    height: 60px;
+    width: 280px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .B-programme h5 {
+    font-size: 18px;
+  }
+
+  .cl-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .programme-alignement {
+    padding: 20px;
+  }
+
+  .emplacement {
+    font-size: 12px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  .menu-mobile {
+    display: inherit;
+  }
+
+  .menu-desktop {
+    display: none;
+  }
+
+  .t-date {
+    font-size: 40px;
+  }
+
+  .t-t {
+    font-size: 30px;
+  }
+
+  .t-emplacement {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+
+  .invites-t {
+    font-size: 15px;
+  }
+
+  .invites-p {
+    font-size: 12px;
+  }
+
+  .mapM {
+    display: inherit;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+
+  .text-H {
+    writing-mode: inherit;
+    text-orientation: inherit;
+  }
+
+  .menu-P {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .B-jour {
+    border: 5px solid white;
+    height: 60px;
+    width: 350px;
+    text-align: center;
+    margin: 10px auto;
+    padding: 11px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .B-jour h3 {
+    font-size: 20px;
+  }
+
+  .B-programme {
+    border: 5px solid white;
+    height: 60px;
+    width: 280px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .B-programme h5 {
+    font-size: 18px;
+  }
+
+  .cl-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .programme-alignement {
+    padding: 20px;
+  }
+
+  .emplacement {
+    font-size: 12px;
+  }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
